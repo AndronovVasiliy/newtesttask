@@ -1,0 +1,32 @@
+.newsWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    height: 100%;
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        align-items: center;
+        overflow-y: auto;
+    }
+}
+
+.news {
+    h2 {
+        margin: 5px;
+    }
+
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    align-items: center;
+    background-color: #FCE883;
+    padding: 10px;
+    border-radius: 15px;
+
+}
