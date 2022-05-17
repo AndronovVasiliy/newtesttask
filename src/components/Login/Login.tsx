@@ -31,6 +31,7 @@ export default function Login() {
 
   return (
     <form className={style.login_form} onSubmit={handleSubmit(onSubmit)}>
+      <div>Login: Admin, pass: 12345</div>
       <label htmlFor="username">Login</label>
       <input  id="username" {...register("username", { required: true })}/>
       {errors.username && <span>This field is required</span>}
